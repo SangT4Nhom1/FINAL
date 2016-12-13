@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//src/Controller/DiemServlet.java=UTF-8
+encoding//src/Controller/NhanXetServlet.java=UTF-8
+encoding//src/Controller/NopBaiServlet.java=UTF-8
+encoding//src/Controller/SapXepServlet.java=UTF-8
+encoding//src/Controller/TaiKhoanServlet.java=UTF-8
+encoding//src/Dao/TaiKhoanDao.java=UTF-8
