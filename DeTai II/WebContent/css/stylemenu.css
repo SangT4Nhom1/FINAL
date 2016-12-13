@@ -1,0 +1,86 @@
+﻿*{
+	margin: 0px;
+	padding: 0px;
+}
+.clearfix:after{
+	display: block;
+	clear: both;
+}
+.wrapper{
+	width: 100%;
+	height: 0;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.2)
+	background:white;
+}
+/* menu */
+.menu{
+	width: 1165px;
+	margin: 0px left;
+	background:#039;
+	height:45px;
+	margin-top: 0px;
+}
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:'Ek Mukta';
+}
+/* chữ */
+.menu a {
+    transition:all linear 0.15s;
+    color:black;
+    text-decoration:none;
+}
+/* chữ menu*/
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:underline;
+    color:red;
+} 
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+} 
+/*----- css cho phần menu cha -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+/* thanh me nu*/
+.menu > ul > li > a {
+    padding:10px 40px;
+    display:inline-block;
+    color:white;
+}
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#FFc;
+}
+/*----css cho menu con----*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+.sub-menu {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#FFC;
+}
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#6CF;
+}

@@ -1,0 +1,44 @@
+#nav{
+	font-family: Arial;
+	font-size: 14px;
+	width: 980px;
+	margin: 50px auto;
+	background: #fff;
+}
+#nav a{
+	display: block;
+	padding: 0 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: "red";
+	background: "white";
+	border: 1px solid #5197ff;
+	float: left;
+}
+#nav ul{
+	position: relative;
+	list-style: none;
+	line-height: 28px;
+
+}
+#vav ul li{
+	position: relative;
+
+}
+/*tang 2*/
+#nav li ul{
+	position: absolute;
+	display: none;
+	margin: 0px;
+	padding: 0px;
+}
+#nav a:hover{
+	background: #5197ff;
+}
+#nav li:hover ul ul{
+	display: none;
+}
+#nav li:hover ul,
+#nav li li:hover ul{
+	display: block;
+}
