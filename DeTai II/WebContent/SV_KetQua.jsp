@@ -47,8 +47,8 @@
   select nhanxet.MaGV,giaovien.HoTen,nhanxet.ChucVu
  	,nhanxet.NhanXet, nhanxet.BaoCao, nhanxet.XepLoai,detai.MaDeTai
  from nhanxet,giaovien,detai
- where detai.MaDeTai=nhanxet.MaDeTai
-	and nhanxet.MaGV=nhanxet.MaGV
+ where  detai.MaDeTai=nhanxet.MaDeTai
+ 	and	nhanxet.MaGV=nhanxet.MaGV
 	and nhanxet.MaGV=giaovien.MSGV
 	and detai.MaSV=<%=tk.getId_TK()%>;</sql:query>
 

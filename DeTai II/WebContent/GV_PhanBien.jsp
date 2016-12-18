@@ -118,7 +118,7 @@ where detai.MaDeTai=nhanxet.MaDetai and nhanxet.MaGV=<%=tk.getId_TK()%>;
 									</td>
 									<td><c:out value="${rows.ChucVu}"></c:out></td>
 									<td><a
-										href="TruongKhoa_Phan_Bien.jsp?MaDeTai=${rows.MaDeTai}"
+										href="BaoCao.jsp?MaDeTai=${rows.MaDeTai}"
 										class="btn btn-primary" role="button">Phản Biện</a></td>
 								</tr>
 							</c:forEach>

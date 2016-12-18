@@ -80,7 +80,7 @@
 </sql:query>
 
 <sql:query dataSource="${DBConn}" var="result2"> 
-			select MSGV,HoTen from giaovien MSGV<16110000
+			select MSGV,HoTen from giaovien
         </sql:query>
 
 <sql:query dataSource="${DBConn}" var="result5"> 
@@ -134,7 +134,7 @@ label {
 				<c:forEach var="rows" items="${result5.rows }">
 					<li><a href="#"><c:out value="Chào! ${rows.HoTen}"></c:out></a></li>
 				</c:forEach>
-				<li><a href="Home.jsp">Ðăng Xuất</a></li>
+				<li><a href="index.jsp">Ðăng Xuất</a></li>
 			</ul>
 		</div>
 	</nav>

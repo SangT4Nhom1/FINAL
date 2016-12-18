@@ -1,0 +1,57 @@
+.cuibap {
+	width: 150px;
+	min-height: 340px;
+	margin-left: 20px;
+	float: left;
+	background-color: white;
+	margin-bottom: 5px;
+}
+
+.bapcai {
+	width: 550px;
+	min-height: 300px;
+	margin-left: 210px;
+	border: 1px solid white;
+	background-color: white;
+	margin-bottom: 10px;
+}
+
+.can {
+	margin-left: 80px;
+}
+
+.khoang_trang {
+	margin-left: 40px;
+	border: 1px solid gray;
+}
+
+.videoPro {
+	width: 660px;
+	min-height: 400px;
+	margin-left: 10px;
+	border: 1px solid #CDCDCD;
+	float: left;
+	background-color: gray;
+	margin-bottom: 5px;
+}
+
+.gh {
+	width: 130px;
+	min-height: 120px;
+	margin-left: 30px;
+	margin-top: 5px;
+	border: 1px solid black;
+	float: left;
+	background-color: gray;
+	margin-bottom: 5px;
+}
+.tt_detaiSV{
+	font-weight: bold;
+}
+.tt_canhan{
+	width: 30%;
+}
+.sizeInput{
+	width 400;
+	height: 25px;
+}

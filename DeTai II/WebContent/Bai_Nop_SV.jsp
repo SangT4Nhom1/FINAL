@@ -65,7 +65,6 @@
 				<c:forEach var="rows" items="${result5.rows }">
 					<li><a href="#"><c:out value="Chào! ${rows.HoTen}"></c:out></a></li>
 				</c:forEach>
-				<li><a href="#">Chào, Nguyễn Văn A</a></li>
 				<li><a href="index.jsp">Đăng Xuất</a></li>
 			</ul>
 		</div>

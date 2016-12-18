@@ -150,7 +150,7 @@ select * from detai where MaSV=<%=tk.getId_TK()%>;
 				<div class="form-group"
 					style="text-align: right; padding-top: 10px; padding-bottom: 10px">
 					<c:forEach var="rows" items="${result2.rows }">
-						<a href=" BaoCao_SV.jsp?MaDeTai=${rows.MaDeTai} "
+						<a href="BaoCao.jsp?MaDeTai=${rows.MaDeTai} "
 							class="btn btn-info" role="button"> Vào Báo Cáo </a>
 					</c:forEach>
 				</div>
